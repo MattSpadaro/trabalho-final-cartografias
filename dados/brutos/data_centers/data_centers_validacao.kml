@@ -1,0 +1,2585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="data_centers_validacao" name="data_centers_validacao">
+      <SimpleField name="nome" type="string"/>
+      <SimpleField name="empresa" type="string"/>
+      <SimpleField name="endereco" type="string"/>
+      <SimpleField name="cidade" type="string"/>
+      <SimpleField name="estado" type="string"/>
+      <SimpleField name="cep" type="string"/>
+      <SimpleField name="pais" type="string"/>
+      <SimpleField name="website" type="string"/>
+      <SimpleField name="peeringdb_id" type="float"/>
+      <SimpleField name="lat" type="float"/>
+      <SimpleField name="lon" type="float"/>
+      <SimpleField name="fonte" type="string"/>
+      <SimpleField name="capacidade_mw" type="string"/>
+      <SimpleField name="tipo_resfriamento" type="string"/>
+      <SimpleField name="ano_inauguracao" type="string"/>
+      <SimpleField name="notas" type="string"/>
+      <SimpleField name="geocod_query" type="string"/>
+      <SimpleField name="geocod_fonte" type="string"/>
+    </Schema>
+    <Schema id="data_centers_validacao.schema">
+      <SimpleField name="nome" type="string"/>
+      <SimpleField name="empresa" type="string"/>
+      <SimpleField name="endereco" type="string"/>
+      <SimpleField name="cidade" type="string"/>
+      <SimpleField name="estado" type="string"/>
+      <SimpleField name="cep" type="string"/>
+      <SimpleField name="pais" type="string"/>
+      <SimpleField name="website" type="string"/>
+      <SimpleField name="peeringdb_id" type="double"/>
+      <SimpleField name="lat" type="double"/>
+      <SimpleField name="lon" type="double"/>
+      <SimpleField name="fonte" type="string"/>
+      <SimpleField name="capacidade_mw" type="string"/>
+      <SimpleField name="tipo_resfriamento" type="string"/>
+      <SimpleField name="ano_inauguracao" type="string"/>
+      <SimpleField name="notas" type="string"/>
+      <SimpleField name="geocod_query" type="string"/>
+      <SimpleField name="geocod_fonte" type="string"/>
+    </Schema>
+    <Document id="data_centers_validacao">
+      <name>data_centers_validacao</name>
+      <Placemark id="data_centers_validacao.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Equinix SP4 - São Paulo</SimpleData>
+            <SimpleData name="endereco">Av. Ceci, 1900 - Res. Tambore</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06455000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.equinix.com/locations/americas-colocation/brazil-colocation/sao-paulo-data-centers/sp4/</SimpleData>
+            <SimpleData name="peeringdb_id">165</SimpleData>
+            <SimpleData name="lat">-23.497589</SimpleData>
+            <SimpleData name="lon">-46.814577</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.814577,-23.497589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX Telium</SimpleData>
+            <SimpleData name="endereco">Av. Nações unidas 13797 Building III 2° floor</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04794-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.telium.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">816</SimpleData>
+            <SimpleData name="lat">-23.620044</SimpleData>
+            <SimpleData name="lon">-46.702253</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.702253,-23.620044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX Samm Florida</SimpleData>
+            <SimpleData name="endereco">R. Flórida, 1738 – Conj. Comercial 31, 3º andar – Brooklin</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04575901</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.g8.net.br</SimpleData>
+            <SimpleData name="peeringdb_id">1099</SimpleData>
+            <SimpleData name="lat">-23.607007</SimpleData>
+            <SimpleData name="lon">-46.694739</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.694739,-23.607007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ananke</SimpleData>
+            <SimpleData name="endereco">rua santo antonio, 184</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">01314000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.ananke.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">1210</SimpleData>
+            <SimpleData name="lat">-23.549923</SimpleData>
+            <SimpleData name="lon">-46.640734</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.640734,-23.549923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Equinix SP2 - São Paulo</SimpleData>
+            <SimpleData name="endereco">Alameda Araguaia, 3641</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06455000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.equinix.com/locations/americas-colocation/brazil-colocation/sao-paulo-data-centers/sp2/</SimpleData>
+            <SimpleData name="peeringdb_id">1283</SimpleData>
+            <SimpleData name="lat">-23.5027</SimpleData>
+            <SimpleData name="lon">-46.827255</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.827255,-23.5027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">TIVIT Sao Paulo</SimpleData>
+            <SimpleData name="endereco">Rua Bento Branco de Andrade Filho, 621</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04757-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.tivit.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">1325</SimpleData>
+            <SimpleData name="lat">-23.65071</SimpleData>
+            <SimpleData name="lon">-46.720519</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.720519,-23.65071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.7">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX ALGAR-VRAO</SimpleData>
+            <SimpleData name="endereco">Avenida Das Nações Unidas, 12901</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04578-910</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.stech.net.br</SimpleData>
+            <SimpleData name="peeringdb_id">1345</SimpleData>
+            <SimpleData name="lat">-23.610224</SimpleData>
+            <SimpleData name="lon">-46.696424</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.696424,-23.610224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Equinix SP1 - São Paulo</SimpleData>
+            <SimpleData name="endereco">Rua Dr. Miguel Couto, 58</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">01008010</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.equinix.com/locations/americas-colocation/brazil-colocation/sao-paulo-data-centers/sp1/</SimpleData>
+            <SimpleData name="peeringdb_id">1585</SimpleData>
+            <SimpleData name="lat">-23.545988</SimpleData>
+            <SimpleData name="lon">-46.635836</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.635836,-23.545988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.9">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">B-BRIX - SPO1</SimpleData>
+            <SimpleData name="endereco">Tambore - Barueri</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06460-120</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.backbone-br.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">1685</SimpleData>
+            <SimpleData name="lat">-23.497107</SimpleData>
+            <SimpleData name="lon">-46.814556</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.814556,-23.497107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.10">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Nextel MSO SPO</SimpleData>
+            <SimpleData name="endereco">R. Cajuru 533</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">03045</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.nextel.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">1789</SimpleData>
+            <SimpleData name="lat">-23.542416</SimpleData>
+            <SimpleData name="lon">-46.598948</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.598948,-23.542416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.11">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Terra Network Brasil S.A - SAO-01</SimpleData>
+            <SimpleData name="endereco">Av. das Nações Unidas, 12901</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04576</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.terra.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">1839</SimpleData>
+            <SimpleData name="lat">-23.609889</SimpleData>
+            <SimpleData name="lon">-46.697227</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.697227,-23.609889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.12">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Terra Network Brasil S.A - SAO-02</SimpleData>
+            <SimpleData name="endereco">Av. TamborÃ©, 341/371</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06460-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.terra.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">1840</SimpleData>
+            <SimpleData name="lat">-23.5112184</SimpleData>
+            <SimpleData name="lon">-46.8764612</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Barueri, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.8764612,-23.5112184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.13">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Eletronet - Sao Paulo</SimpleData>
+            <SimpleData name="endereco">100 Av Alfredo Egídio De Souza Aranha</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04726-170</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://eletronet.com/</SimpleData>
+            <SimpleData name="peeringdb_id">1903</SimpleData>
+            <SimpleData name="lat">-23.632684</SimpleData>
+            <SimpleData name="lon">-46.712046</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.712046,-23.632684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.14">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ultranet SP1</SimpleData>
+            <SimpleData name="endereco">Av Lins de Vasconcelos 1042</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">01538000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://ultranet.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">2179</SimpleData>
+            <SimpleData name="lat">-23.572415</SimpleData>
+            <SimpleData name="lon">-46.623074</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.623074,-23.572415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.15">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Data Center ASAP SP1</SimpleData>
+            <SimpleData name="endereco">Avenida das Nações Unidas, 22540</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04795-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.asaptelecom.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">2732</SimpleData>
+            <SimpleData name="lat">-23.678168</SimpleData>
+            <SimpleData name="lon">-46.699025</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.699025,-23.678168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.16">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Txfiber</SimpleData>
+            <SimpleData name="endereco">Praça São Roque, 45</SimpleData>
+            <SimpleData name="cidade">Taquarituba</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">18740-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.txfiber.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">2738</SimpleData>
+            <SimpleData name="lat">-23.534214</SimpleData>
+            <SimpleData name="lon">-49.244649</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -49.244649,-23.534214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.17">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty CPS01 - Campinas</SimpleData>
+            <SimpleData name="endereco">Av Pierre Simon de Laplace n1211</SimpleData>
+            <SimpleData name="cidade">Campinas</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13069-320</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/campinas/campinas-1/</SimpleData>
+            <SimpleData name="peeringdb_id">2812</SimpleData>
+            <SimpleData name="lat">-22.850918</SimpleData>
+            <SimpleData name="lon">-47.154706</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.154706,-22.850918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.18">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Claudio Evangelista da Silva</SimpleData>
+            <SimpleData name="endereco">Costa e Silva, 609</SimpleData>
+            <SimpleData name="cidade">Praia Grande</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">11701-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.pgnet.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">3090</SimpleData>
+            <SimpleData name="lat">-24.007907</SimpleData>
+            <SimpleData name="lon">-46.413833</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.413833,-24.007907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.19">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">UPX São Paulo</SimpleData>
+            <SimpleData name="endereco">Alameda Araguaia, 3641</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06455-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.upx.com</SimpleData>
+            <SimpleData name="peeringdb_id">3194</SimpleData>
+            <SimpleData name="lat">-23.5027</SimpleData>
+            <SimpleData name="lon">-46.827255</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.827255,-23.5027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.20">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">NIC-NU (Nações Unidas)</SimpleData>
+            <SimpleData name="endereco">Av. das Nações Unidas, 11541, 7° andar</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04578-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://ix.br/</SimpleData>
+            <SimpleData name="peeringdb_id">3809</SimpleData>
+            <SimpleData name="lat">-23.523719</SimpleData>
+            <SimpleData name="lon">-46.762259</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.762259,-23.523719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.21">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">NIC-JD (João Dias)</SimpleData>
+            <SimpleData name="endereco">Av. João Dias, 3163</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04723-003</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://ix.br/</SimpleData>
+            <SimpleData name="peeringdb_id">3810</SimpleData>
+            <SimpleData name="lat">-23.645149</SimpleData>
+            <SimpleData name="lon">-46.730636</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.730636,-23.645149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.22">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">ODATA DC SP01</SimpleData>
+            <SimpleData name="endereco">Estrada dos Romeiros , 943</SimpleData>
+            <SimpleData name="cidade">Santana de Parnaiba</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06501-001</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.odatacolocation.com</SimpleData>
+            <SimpleData name="peeringdb_id">3913</SimpleData>
+            <SimpleData name="lat">-23.4807662</SimpleData>
+            <SimpleData name="lon">-46.8889314</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Estrada dos Romeiros , 943, Santana de Parnaiba, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.8889314,-23.4807662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.23">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">ADP3 TELECOMUNICAÇõES LTDA</SimpleData>
+            <SimpleData name="endereco">Alameda Santos, 455 - Conj.1512</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">01412-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.adp3telecom.com</SimpleData>
+            <SimpleData name="peeringdb_id">4028</SimpleData>
+            <SimpleData name="lat">-23.569832</SimpleData>
+            <SimpleData name="lon">-46.648893</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.648893,-23.569832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.24">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Sba Edge Sao Paulo</SimpleData>
+            <SimpleData name="endereco">Rua José Abrantes, 186</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04756-010</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.matrix.net.br</SimpleData>
+            <SimpleData name="peeringdb_id">4162</SimpleData>
+            <SimpleData name="lat">-23.64713</SimpleData>
+            <SimpleData name="lon">-46.717466</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.717466,-23.64713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.25">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Convex iDC RPO</SimpleData>
+            <SimpleData name="endereco">R. Bernardino de Campos, 1001</SimpleData>
+            <SimpleData name="cidade">Ribeirão Preto</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">14015-130</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.convex.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">4167</SimpleData>
+            <SimpleData name="lat">-21.185203</SimpleData>
+            <SimpleData name="lon">-47.808193</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.808193,-21.185203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.26">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">CMA DATACENTER</SimpleData>
+            <SimpleData name="endereco">Rua Professor Filadelfo de Azevedo 712</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04508011</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.cmaconnect.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">4237</SimpleData>
+            <SimpleData name="lat">-23.587767</SimpleData>
+            <SimpleData name="lon">-46.670654</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.670654,-23.587767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.27">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Equinix SP3 - São Paulo</SimpleData>
+            <SimpleData name="endereco">Avenida Marcos Penteado de Ulhoa Rodrigues, 249</SimpleData>
+            <SimpleData name="cidade">Santana de Parnaiba</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06543-001</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.equinix.com/locations/americas-colocation/brazil-colocation/sao-paulo-data-centers/sp3/</SimpleData>
+            <SimpleData name="peeringdb_id">4309</SimpleData>
+            <SimpleData name="lat">-23.466119</SimpleData>
+            <SimpleData name="lon">-46.863194</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.863194,-23.466119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.28">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Talklink Telecom</SimpleData>
+            <SimpleData name="endereco">Rua 1, 2187</SimpleData>
+            <SimpleData name="cidade">Rio Claro</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13500-142</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.talklink.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">4500</SimpleData>
+            <SimpleData name="lat">-22.399747</SimpleData>
+            <SimpleData name="lon">-47.561748</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.561748,-22.399747,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.29">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Directweb Tecnologia em Informatica</SimpleData>
+            <SimpleData name="endereco">Rua Samuel Morse, 74 - Conjunto 43/44</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04576060</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.grupodirectweb.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">5099</SimpleData>
+            <SimpleData name="lat">-23.611259</SimpleData>
+            <SimpleData name="lon">-46.693928</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.693928,-23.611259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.30">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Unitelco SP</SimpleData>
+            <SimpleData name="endereco">Avenida Paulista, 2444, 17 andar, Cj. 171</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">01310-300</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.unitelco.com.br/</SimpleData>
+            <SimpleData name="peeringdb_id">5112</SimpleData>
+            <SimpleData name="lat">-23.555945</SimpleData>
+            <SimpleData name="lon">-46.662103</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.662103,-23.555945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.31">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">BR.Digital São Paulo (SPO1)</SimpleData>
+            <SimpleData name="endereco">Rua Flórida, 1738 / 2o andar</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04565-001</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://br.digital/</SimpleData>
+            <SimpleData name="peeringdb_id">5132</SimpleData>
+            <SimpleData name="lat">-23.607136</SimpleData>
+            <SimpleData name="lon">-46.694609</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.694609,-23.607136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.32">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Hiway Internet</SimpleData>
+            <SimpleData name="endereco">R Treze de Maio, 133</SimpleData>
+            <SimpleData name="cidade">Valinhos</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13270-020</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.hiway.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">5172</SimpleData>
+            <SimpleData name="lat">-22.970011</SimpleData>
+            <SimpleData name="lon">-46.995886</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.995886,-22.970011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.33">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Scala Data Centers SGRUTB01</SimpleData>
+            <SimpleData name="endereco">Av. Ceci 1850</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">01202-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://scaladatacenters.com/</SimpleData>
+            <SimpleData name="peeringdb_id">5226</SimpleData>
+            <SimpleData name="lat">-23.49497</SimpleData>
+            <SimpleData name="lon">-46.811305</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.811305,-23.49497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.34">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Durand Pix - Globenet RJ</SimpleData>
+            <SimpleData name="endereco">Estrada dos Bandeirantes 12742</SimpleData>
+            <SimpleData name="cidade">Rio de Janeiro</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">22783-415</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.durand.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">5254</SimpleData>
+            <SimpleData name="lat">-23.003748</SimpleData>
+            <SimpleData name="lon">-44.537674</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -44.537674,-23.003748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.35">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Desktop Campinas</SimpleData>
+            <SimpleData name="endereco">Rua Conceição, 233 - Sala 2713</SimpleData>
+            <SimpleData name="cidade">Campinas</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13010-050</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.fasternet.com.br/</SimpleData>
+            <SimpleData name="peeringdb_id">5277</SimpleData>
+            <SimpleData name="lat">-22.904245</SimpleData>
+            <SimpleData name="lon">-47.057493</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.057493,-22.904245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.36">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">IFTNET Telecom</SimpleData>
+            <SimpleData name="endereco">Rua Jorge Tibiriça, 2728 - 10º Andar</SimpleData>
+            <SimpleData name="cidade">São José do Rio Preto</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">15015-050</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.iftnet.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">5350</SimpleData>
+            <SimpleData name="lat">-20.809693</SimpleData>
+            <SimpleData name="lon">-49.382787</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -49.382787,-20.809693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.37">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">DC MATRIX INTERNET S.A</SimpleData>
+            <SimpleData name="endereco">Rua José Abrantes 186</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04.756-010</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://matrix.net.br</SimpleData>
+            <SimpleData name="peeringdb_id">5386</SimpleData>
+            <SimpleData name="lat">-23.646549</SimpleData>
+            <SimpleData name="lon">-46.717418</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.717418,-23.646549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.38">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome"><![CDATA[Fox Telecomunicação & Internet Ltda.]]></SimpleData>
+            <SimpleData name="endereco">R. Moreira Cesar, 67</SimpleData>
+            <SimpleData name="cidade">Jundiai</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">113202-600</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.fox.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">5585</SimpleData>
+            <SimpleData name="lat">-23.198458</SimpleData>
+            <SimpleData name="lon">-46.874442</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.874442,-23.198458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.39">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Insidesign IDC RPO</SimpleData>
+            <SimpleData name="endereco">Av. Saudade 1210</SimpleData>
+            <SimpleData name="cidade">Ribeirão Preto</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">14085-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.insidesign.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">5718</SimpleData>
+            <SimpleData name="lat">-21.162173</SimpleData>
+            <SimpleData name="lon">-47.801185</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.801185,-21.162173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.40">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Qnax Data Center do Brasil</SimpleData>
+            <SimpleData name="endereco">Av. Paulista, 1765 - Cerqueira César,  São Paulo - SP</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">14407415</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://qnax.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">5873</SimpleData>
+            <SimpleData name="lat">-23.560762</SimpleData>
+            <SimpleData name="lon">-46.657847</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.657847,-23.560762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.41">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Maxiweb Internet Provider</SimpleData>
+            <SimpleData name="endereco">Rua Santa Catarina 519</SimpleData>
+            <SimpleData name="cidade">Jundiai</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13202150</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.g2gtelecom.com.br/</SimpleData>
+            <SimpleData name="peeringdb_id">5961</SimpleData>
+            <SimpleData name="lat">-23.208805</SimpleData>
+            <SimpleData name="lon">-46.869404</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.869404,-23.208805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.42">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Virtual Ariki Tecnologia</SimpleData>
+            <SimpleData name="endereco">Av. Ana Costa, 146</SimpleData>
+            <SimpleData name="cidade">Santos</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">11060000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.virtualariki.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">5985</SimpleData>
+            <SimpleData name="lat">-23.949691</SimpleData>
+            <SimpleData name="lon">-46.331029</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.331029,-23.949691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.43">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Minutes4all Telecomunicações Ltda</SimpleData>
+            <SimpleData name="endereco">Av Roque Petroni Junior 1089 Sl 208</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04707000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.minutes4all.com</SimpleData>
+            <SimpleData name="peeringdb_id">6220</SimpleData>
+            <SimpleData name="lat">-23.623276</SimpleData>
+            <SimpleData name="lon">-46.698727</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.698727,-23.623276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.44">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Open IT Group</SimpleData>
+            <SimpleData name="endereco">Rua Minas Gerais, 260</SimpleData>
+            <SimpleData name="cidade">Cabreúva</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13318-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.openitgroup.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">6329</SimpleData>
+            <SimpleData name="lat">-23.253249</SimpleData>
+            <SimpleData name="lon">-47.055839</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.055839,-23.253249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.45">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Latitude.sh MH1</SimpleData>
+            <SimpleData name="endereco">Rua Eduardo Martinelli, 100</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04013-050</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://latitude.sh</SimpleData>
+            <SimpleData name="peeringdb_id">6434</SimpleData>
+            <SimpleData name="lat">-23.580004</SimpleData>
+            <SimpleData name="lon">-46.641081</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.641081,-23.580004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.46">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">BB Host Datacenter - COA1</SimpleData>
+            <SimpleData name="endereco">Av. Eid Mansur, 666</SimpleData>
+            <SimpleData name="cidade">Cotia</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06708-070</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.bbhost.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">6892</SimpleData>
+            <SimpleData name="lat">-23.597933</SimpleData>
+            <SimpleData name="lon">-46.848808</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.848808,-23.597933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.47">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty SPO01 - São Paulo</SimpleData>
+            <SimpleData name="endereco">Av. Roberto Pinto Sobrinho, 350</SimpleData>
+            <SimpleData name="cidade">Osasco</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06268-120</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/sao-paulo-capital/sao-paulo-1/</SimpleData>
+            <SimpleData name="peeringdb_id">7579</SimpleData>
+            <SimpleData name="lat">-23.492259</SimpleData>
+            <SimpleData name="lon">-46.777232</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.777232,-23.492259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.48">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty SPO02 - São Paulo</SimpleData>
+            <SimpleData name="endereco">Av. Roberto Pinto Sobrinho, 350</SimpleData>
+            <SimpleData name="cidade">Osasco</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06268-120</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/sao-paulo-capital/sao-paulo-2/</SimpleData>
+            <SimpleData name="peeringdb_id">7580</SimpleData>
+            <SimpleData name="lat">-23.492259</SimpleData>
+            <SimpleData name="lon">-46.777232</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.777232,-23.492259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.49">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty SPO03 - São Paulo</SimpleData>
+            <SimpleData name="endereco">Av. Roberto Pinto Sobrinho, 350</SimpleData>
+            <SimpleData name="cidade">Osasco</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06268-120</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/sao-paulo-capital/sao-paulo-3/</SimpleData>
+            <SimpleData name="peeringdb_id">7581</SimpleData>
+            <SimpleData name="lat">-23.492259</SimpleData>
+            <SimpleData name="lon">-46.777232</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.777232,-23.492259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.50">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty JDI01 - Jundiaí</SimpleData>
+            <SimpleData name="endereco">R. Presbítero Plinio Alves de Souza, 757</SimpleData>
+            <SimpleData name="cidade">Jundiai</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13212-181</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/jundiai/jundiai-1/</SimpleData>
+            <SimpleData name="peeringdb_id">7582</SimpleData>
+            <SimpleData name="lat">-23.191744</SimpleData>
+            <SimpleData name="lon">-46.974604</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.974604,-23.191744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.51">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty SUM01 - Sumaré</SimpleData>
+            <SimpleData name="endereco">Rod. Anhanguera, s/n Sumaré - SP - Parque das Industrias (Nova Veneza)</SimpleData>
+            <SimpleData name="cidade">Sumaré</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13177-435</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/sumare/sumare-1/</SimpleData>
+            <SimpleData name="peeringdb_id">7584</SimpleData>
+            <SimpleData name="lat">-22.8217964</SimpleData>
+            <SimpleData name="lon">-47.267105</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Sumaré, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.267105,-22.8217964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.52">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty SUM02 - Sumaré</SimpleData>
+            <SimpleData name="endereco">Rod. Anhanguera, s/n Sumaré - SP - Parque das Industrias (Nova Veneza)</SimpleData>
+            <SimpleData name="cidade">Sumaré</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13177-435</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/sumare/sumare-2/</SimpleData>
+            <SimpleData name="peeringdb_id">7585</SimpleData>
+            <SimpleData name="lat">-22.8217964</SimpleData>
+            <SimpleData name="lon">-47.267105</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Sumaré, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.267105,-22.8217964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.53">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty HTL01 - Hortolândia</SimpleData>
+            <SimpleData name="endereco">R. Papa João Paulo II, 4 - Jardim Santa Izabel</SimpleData>
+            <SimpleData name="cidade">Hortolandia</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13185-252</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/hortolandia/hortolandia-1/</SimpleData>
+            <SimpleData name="peeringdb_id">7586</SimpleData>
+            <SimpleData name="lat">-22.896022</SimpleData>
+            <SimpleData name="lon">-47.179246</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.179246,-22.896022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.54">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty HTL02 - Hortolândia</SimpleData>
+            <SimpleData name="endereco">R. Papa João Paulo II, 4 - Jardim Santa Izabel</SimpleData>
+            <SimpleData name="cidade">Hortolandia</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13185-252</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/hortolandia/hortolandia-2/</SimpleData>
+            <SimpleData name="peeringdb_id">7587</SimpleData>
+            <SimpleData name="lat">-22.896022</SimpleData>
+            <SimpleData name="lon">-47.179246</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.179246,-22.896022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.55">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty HTL03 - Hortolândia</SimpleData>
+            <SimpleData name="endereco">R. Papa João Paulo II, 4 - Jardim Santa Izabel</SimpleData>
+            <SimpleData name="cidade">Hortolandia</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13185-252</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/hortolandia/hortolandia-3/</SimpleData>
+            <SimpleData name="peeringdb_id">7588</SimpleData>
+            <SimpleData name="lat">-22.896022</SimpleData>
+            <SimpleData name="lon">-47.179246</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.179246,-22.896022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.56">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty VIN01 - Vinhedo</SimpleData>
+            <SimpleData name="endereco">Avenida 2, número  50 - Distrito Industrial Benedito – Storini</SimpleData>
+            <SimpleData name="cidade">Vinhedo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13.288-162</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/vinhedo/vinhedo-1/</SimpleData>
+            <SimpleData name="peeringdb_id">7589</SimpleData>
+            <SimpleData name="lat">-23.0298535</SimpleData>
+            <SimpleData name="lon">-46.9749847</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Vinhedo, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.9749847,-23.0298535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.57">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty VIN02 - Vinhedo</SimpleData>
+            <SimpleData name="endereco">Avenida 2, número  50 - Distrito Industrial Benedito – Storini</SimpleData>
+            <SimpleData name="cidade">Vinhedo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13.288-162</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/vinhedo/vinhedo-2/</SimpleData>
+            <SimpleData name="peeringdb_id">7590</SimpleData>
+            <SimpleData name="lat">-23.0298535</SimpleData>
+            <SimpleData name="lon">-46.9749847</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Vinhedo, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.9749847,-23.0298535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.58">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty PLN01 - Paulínia</SimpleData>
+            <SimpleData name="endereco">Rua Sebastião Cardoso s/n</SimpleData>
+            <SimpleData name="cidade">Paulínia</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13141-005</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/paulinia/paulinia-1/</SimpleData>
+            <SimpleData name="peeringdb_id">7591</SimpleData>
+            <SimpleData name="lat">-22.7956239</SimpleData>
+            <SimpleData name="lon">-47.1358173</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Rua Sebastião Cardoso s/n, Paulínia, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.1358173,-22.7956239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.59">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Omid Solutions Barueri</SimpleData>
+            <SimpleData name="endereco">Av. Aruanã, 452 - Barueri/SP</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06460-010</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.omidsolutions.com.br/</SimpleData>
+            <SimpleData name="peeringdb_id">8350</SimpleData>
+            <SimpleData name="lat">-23.493228</SimpleData>
+            <SimpleData name="lon">-46.83566</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.83566,-23.493228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.60">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Omid Solutions São Paulo</SimpleData>
+            <SimpleData name="endereco">Rua Texas, 676 - Brooklin/SP</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04557-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.omidsolutions.com.br/</SimpleData>
+            <SimpleData name="peeringdb_id">8351</SimpleData>
+            <SimpleData name="lat">-23.604649</SimpleData>
+            <SimpleData name="lon">-46.681851</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.681851,-23.604649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.61">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Scala Data Centers HQ</SimpleData>
+            <SimpleData name="endereco">Alameda Tocantins, 350</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06455-020</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.uoldiveo.com.br/en/infrastructure/data-center-and-colocation/</SimpleData>
+            <SimpleData name="peeringdb_id">8676</SimpleData>
+            <SimpleData name="lat">-23.502219</SimpleData>
+            <SimpleData name="lon">-46.851191</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.851191,-23.502219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.62">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Scala Data Centers SGRUSP02</SimpleData>
+            <SimpleData name="endereco">Alameda Glete, 700</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">01215-001</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.uoldiveo.com.br/en/infrastructure/data-center-and-colocation/</SimpleData>
+            <SimpleData name="peeringdb_id">8677</SimpleData>
+            <SimpleData name="lat">-23.535779</SimpleData>
+            <SimpleData name="lon">-46.647566</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.647566,-23.535779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.63">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Net Company Telecom</SimpleData>
+            <SimpleData name="endereco">Rua Reno Cardoso, 169 Vila Rica</SimpleData>
+            <SimpleData name="cidade">Suzano</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">08625-570</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.gruponct.com/services/</SimpleData>
+            <SimpleData name="peeringdb_id">8740</SimpleData>
+            <SimpleData name="lat">-23.641223</SimpleData>
+            <SimpleData name="lon">-46.31512</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.31512,-23.641223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.64">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">V micali Telecomunicações</SimpleData>
+            <SimpleData name="endereco">Rua Ernesto Fioravente 135</SimpleData>
+            <SimpleData name="cidade">Taquaritinga</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">15908-003</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.guari.net.br</SimpleData>
+            <SimpleData name="peeringdb_id">9083</SimpleData>
+            <SimpleData name="lat">-21.399117</SimpleData>
+            <SimpleData name="lon">-48.483301</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -48.483301,-21.399117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.65">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">NetCaster</SimpleData>
+            <SimpleData name="endereco">Rua São Paulo, 155</SimpleData>
+            <SimpleData name="cidade">São José do Rio Preto</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">15055-485</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.netcaster.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">9484</SimpleData>
+            <SimpleData name="lat">-20.794776</SimpleData>
+            <SimpleData name="lon">-49.357403</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -49.357403,-20.794776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.66">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Migtel Telecomunicacoes</SimpleData>
+            <SimpleData name="endereco">Av. das Nacoes unidas 13797 - bloco 2 - 9. andar</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04794-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.evotelecom.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">9501</SimpleData>
+            <SimpleData name="lat">-23.619838</SimpleData>
+            <SimpleData name="lon">-46.699673</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.699673,-23.619838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.67">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">ITRIO EDGE SP3</SimpleData>
+            <SimpleData name="endereco">Avenida Marcos Penteado De Ulhôa Rodrigues, 249</SimpleData>
+            <SimpleData name="cidade">Santana de Parnaiba</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06543-001</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://itrio.tech</SimpleData>
+            <SimpleData name="peeringdb_id">10944</SimpleData>
+            <SimpleData name="lat">-23.466334</SimpleData>
+            <SimpleData name="lon">-46.863288</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.863288,-23.466334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.68">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Direct Lan SOR1</SimpleData>
+            <SimpleData name="endereco">RUA: GONÇALVES DIAS, 99</SimpleData>
+            <SimpleData name="cidade">Sorocaba</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">18081040</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.directlan.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">11316</SimpleData>
+            <SimpleData name="lat">-23.484762</SimpleData>
+            <SimpleData name="lon">-47.451306</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.451306,-23.484762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.69">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Direct Lan SOR2 (PIRAMIDE)</SimpleData>
+            <SimpleData name="endereco">Rua Doutor Arthur Martins, 63</SimpleData>
+            <SimpleData name="cidade">Sorocaba</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">18035-250</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.directlan.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">11317</SimpleData>
+            <SimpleData name="lat">-23.502609</SimpleData>
+            <SimpleData name="lon">-47.458521</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.458521,-23.502609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.70">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Elea SPO1 - São Paulo</SimpleData>
+            <SimpleData name="endereco">Avenida Guido Caloi, 1000</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">05802-140</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.eleadatacenters.com</SimpleData>
+            <SimpleData name="peeringdb_id">11609</SimpleData>
+            <SimpleData name="lat">-23.653242</SimpleData>
+            <SimpleData name="lon">-46.725456</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.725456,-23.653242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.71">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX IMA</SimpleData>
+            <SimpleData name="endereco">Av. Anchieta, 200</SimpleData>
+            <SimpleData name="cidade">Campinas</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13015-904</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://ima.sp.gov.br/</SimpleData>
+            <SimpleData name="peeringdb_id">11665</SimpleData>
+            <SimpleData name="lat">-22.900974</SimpleData>
+            <SimpleData name="lon">-47.057459</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.057459,-22.900974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.72">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX Unicamp</SimpleData>
+            <SimpleData name="endereco">Rua Saturnino de Brito, 45</SimpleData>
+            <SimpleData name="cidade">Campinas</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13083-889</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.unicamp.br/unicamp/</SimpleData>
+            <SimpleData name="peeringdb_id">11666</SimpleData>
+            <SimpleData name="lat">-22.817439</SimpleData>
+            <SimpleData name="lon">-47.062779</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.062779,-22.817439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.73">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty HTL04 - Hortolândia</SimpleData>
+            <SimpleData name="endereco">R. Papa João Paulo II, 4 - Jardim Santa Izabel (Campus)</SimpleData>
+            <SimpleData name="cidade">Hortolandia</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13185-252</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/hortolandia/hortolandia-4/</SimpleData>
+            <SimpleData name="peeringdb_id">11686</SimpleData>
+            <SimpleData name="lat">-22.896309</SimpleData>
+            <SimpleData name="lon">-47.178493</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.178493,-22.896309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.74">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty HTL05 - Hortolândia</SimpleData>
+            <SimpleData name="endereco">R. Papa João Paulo II, 4 - Jardim Santa Izabel (Campus)</SimpleData>
+            <SimpleData name="cidade">Hortolandia</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13185-252</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/hortolandia/hortolandia-5/</SimpleData>
+            <SimpleData name="peeringdb_id">11687</SimpleData>
+            <SimpleData name="lat">-22.896309</SimpleData>
+            <SimpleData name="lon">-47.178493</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.178493,-22.896309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.75">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX USP</SimpleData>
+            <SimpleData name="endereco">Av. Professor Luciano Gualberto - travessa 3, nº 71</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">05508-010</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www5.usp.br/</SimpleData>
+            <SimpleData name="peeringdb_id">11717</SimpleData>
+            <SimpleData name="lat">-23.56174</SimpleData>
+            <SimpleData name="lon">-46.721256</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.721256,-23.56174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.76">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX ALGAR-PIAF</SimpleData>
+            <SimpleData name="endereco">Rua Casa do Ator, 415</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04546-002</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.algartelecom.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">11718</SimpleData>
+            <SimpleData name="lat">-23.599544</SimpleData>
+            <SimpleData name="lon">-46.677678</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.677678,-23.599544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.77">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX ALGAR-CENESP</SimpleData>
+            <SimpleData name="endereco">Avenida Maria Coelho Aguiar, 215 Sala 102F</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">05805-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.algartelecom.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">11719</SimpleData>
+            <SimpleData name="lat">-23.648726</SimpleData>
+            <SimpleData name="lon">-46.728887</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.728887,-23.648726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.78">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX Locaweb</SimpleData>
+            <SimpleData name="endereco">Rua Itapaiuna, 2434 - Jardim Morumbi</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">05707-001</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://locaweb.com.br/</SimpleData>
+            <SimpleData name="peeringdb_id">11721</SimpleData>
+            <SimpleData name="lat">-23.5506507</SimpleData>
+            <SimpleData name="lon">-46.6333824</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">São Paulo, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.6333824,-23.5506507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.79">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX Tim</SimpleData>
+            <SimpleData name="endereco">Av. Alfredo Egídio de Souza Aranha, 100</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04726-170</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.tim.com.br/rj</SimpleData>
+            <SimpleData name="peeringdb_id">11723</SimpleData>
+            <SimpleData name="lat">-23.632891</SimpleData>
+            <SimpleData name="lon">-46.712391</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.712391,-23.632891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.80">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX Telefonica-JD</SimpleData>
+            <SimpleData name="endereco">Rua Júlio Diniz, 190</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04547-090</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.telefonica.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">11725</SimpleData>
+            <SimpleData name="lat">-23.59912</SimpleData>
+            <SimpleData name="lon">-46.685078</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.685078,-23.59912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.81">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX Vero</SimpleData>
+            <SimpleData name="endereco">Avenida Brigadeiro Faria Lima, 1912 6F</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">01451-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://americanet.com.br/</SimpleData>
+            <SimpleData name="peeringdb_id">11728</SimpleData>
+            <SimpleData name="lat">-23.574408</SimpleData>
+            <SimpleData name="lon">-46.689351</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.689351,-23.574408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.82">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX Embratel SP</SimpleData>
+            <SimpleData name="endereco">Rua dos Ingleses, 600</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">01329-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.embratel.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">11729</SimpleData>
+            <SimpleData name="lat">-23.563686</SimpleData>
+            <SimpleData name="lon">-46.646687</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.646687,-23.563686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.83">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX Samm Itaim</SimpleData>
+            <SimpleData name="endereco">Av. Chedid Jafet 222, Bloco C</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04551-065</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.sammnet.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">11730</SimpleData>
+            <SimpleData name="lat">-23.592622</SimpleData>
+            <SimpleData name="lon">-46.690693</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.690693,-23.592622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.84">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Scala Data Centers SVCPCP01</SimpleData>
+            <SimpleData name="endereco">Rua Guido de Camargo Penteado Sobrinho, 3685</SimpleData>
+            <SimpleData name="cidade">Campinas</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13082-800</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://scaladatacenters.com/</SimpleData>
+            <SimpleData name="peeringdb_id">12038</SimpleData>
+            <SimpleData name="lat">-22.820539</SimpleData>
+            <SimpleData name="lon">-47.100058</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.100058,-22.820539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.85">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty HTL06 - Hortolândia</SimpleData>
+            <SimpleData name="endereco">R. Papa João Paulo II, 4 - Jardim Santa Izabel (Campus)</SimpleData>
+            <SimpleData name="cidade">Hortolandia</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13185-252</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.ascenty.com/data-centers/hortolandia/hortolandia-6/</SimpleData>
+            <SimpleData name="peeringdb_id">12197</SimpleData>
+            <SimpleData name="lat">-22.896447</SimpleData>
+            <SimpleData name="lon">-47.178489</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.178489,-22.896447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.86">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">BR.Digital São Paulo (SPO2)</SimpleData>
+            <SimpleData name="endereco">Rua Cenno Sbrighi, 45</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">05036-010</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://br.digital/data-centers</SimpleData>
+            <SimpleData name="peeringdb_id">12449</SimpleData>
+            <SimpleData name="lat">-23.51474</SimpleData>
+            <SimpleData name="lon">-46.694942</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.694942,-23.51474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.87">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">IDC19</SimpleData>
+            <SimpleData name="endereco">Rua Aratans, 333</SimpleData>
+            <SimpleData name="cidade">Vinhedo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13283-686</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.idc19.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">12481</SimpleData>
+            <SimpleData name="lat">-23.013528</SimpleData>
+            <SimpleData name="lon">-46.963309</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.963309,-23.013528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.88">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">OpenX - Verbo Divino</SimpleData>
+            <SimpleData name="endereco">Rua Verbo Divino, 2001</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04719002</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.openx.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">12935</SimpleData>
+            <SimpleData name="lat">-23.631157</SimpleData>
+            <SimpleData name="lon">-46.713528</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.713528,-23.631157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.89">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Scala Data Centers SGRUTB05</SimpleData>
+            <SimpleData name="endereco">Av. Ceci 1650</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06460-120</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://scaladatacenters.com/</SimpleData>
+            <SimpleData name="peeringdb_id">13397</SimpleData>
+            <SimpleData name="lat">-23.498104</SimpleData>
+            <SimpleData name="lon">-46.81614</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.81614,-23.498104,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.90">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty SPO04  - São Paulo</SimpleData>
+            <SimpleData name="endereco">Av. Roberto Pinto Sobrinho, 350</SimpleData>
+            <SimpleData name="cidade">Osasco</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06268-120</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://ascenty.com/data-centers/sao-paulo-capital/sao-paulo-4/</SimpleData>
+            <SimpleData name="peeringdb_id">13720</SimpleData>
+            <SimpleData name="lat">-23.49128</SimpleData>
+            <SimpleData name="lon">-46.777629</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.777629,-23.49128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.91">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">UPIX EDGE SAO JOSE DOS CAMPOS</SimpleData>
+            <SimpleData name="endereco">R. Euclídes Miragaia, 145</SimpleData>
+            <SimpleData name="cidade">São José dos Campos</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">12245-820</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.upixnetworks.com/en/colocation/</SimpleData>
+            <SimpleData name="peeringdb_id">14140</SimpleData>
+            <SimpleData name="lat">-23.192051</SimpleData>
+            <SimpleData name="lon">-45.891168</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -45.891168,-23.192051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.92">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Scala Data Centers SGRUTB08</SimpleData>
+            <SimpleData name="endereco">Av. Ceci, 1649 - Bloco 02</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06460-120</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://scaladatacenters.com/</SimpleData>
+            <SimpleData name="peeringdb_id">14820</SimpleData>
+            <SimpleData name="lat">-23.497787</SimpleData>
+            <SimpleData name="lon">-46.816241</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.816241,-23.497787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.93">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Scala Data Centers SGRUTB12</SimpleData>
+            <SimpleData name="endereco">Av. Ceci, 1649 - Bloco 05</SimpleData>
+            <SimpleData name="cidade">Tamboré</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06460-120</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://scaladatacenters.com/</SimpleData>
+            <SimpleData name="peeringdb_id">14821</SimpleData>
+            <SimpleData name="lat">-23.497787</SimpleData>
+            <SimpleData name="lon">-46.816241</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.816241,-23.497787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.94">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Equinix SP5x - São Paulo</SimpleData>
+            <SimpleData name="endereco">Av. Marcos Penteado de Ulhoa Rodrigues, 888</SimpleData>
+            <SimpleData name="cidade">Santana de Parnaiba</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06543-001</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.equinix.com.br/data-centers/americas-colocation/brazil-colocation/sao-paulo-data-centers/sp5x</SimpleData>
+            <SimpleData name="peeringdb_id">14845</SimpleData>
+            <SimpleData name="lat">-23.4673565</SimpleData>
+            <SimpleData name="lon">-46.8521878</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Av. Marcos Penteado de Ulhoa Rodrigues, 888, Santana de Parnaiba, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.8521878,-23.4673565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.95">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Equinix SP6 - São Paulo</SimpleData>
+            <SimpleData name="endereco">Av. Marcos Penteado de Ulhoa Rodrigues, 1229</SimpleData>
+            <SimpleData name="cidade">Santana de Parnaiba</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06544</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.equinix.com.br/data-centers/americas-colocation/brazil-colocation/sao-paulo-data-centers/sp6</SimpleData>
+            <SimpleData name="peeringdb_id">15047</SimpleData>
+            <SimpleData name="lat">-23.460369</SimpleData>
+            <SimpleData name="lon">-46.859912</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.859912,-23.460369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.96">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Odata DC SP02</SimpleData>
+            <SimpleData name="endereco">R José Blumer 150</SimpleData>
+            <SimpleData name="cidade">Hortolandia</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">13186-510</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.odatacolocation.com</SimpleData>
+            <SimpleData name="peeringdb_id">15093</SimpleData>
+            <SimpleData name="lat">-22.89953</SimpleData>
+            <SimpleData name="lon">-47.195261</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.195261,-22.89953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.97">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Elea SPO2 - São Bernardo do Campo</SimpleData>
+            <SimpleData name="endereco">Av. Marginal Direita Anchieta, 1241 - Jordanópolis, São Bernardo do Campo</SimpleData>
+            <SimpleData name="cidade">São Bernardo do Campo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">09891-420</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.eleadatacenters.com</SimpleData>
+            <SimpleData name="peeringdb_id">15433</SimpleData>
+            <SimpleData name="lat">-23.677319</SimpleData>
+            <SimpleData name="lon">-46.569368</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.569368,-23.677319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.98">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Elea SPO3 - Tamboré</SimpleData>
+            <SimpleData name="endereco">Al. Rio Negro, 530</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06454-000</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.eleadatacenters.com</SimpleData>
+            <SimpleData name="peeringdb_id">15772</SimpleData>
+            <SimpleData name="lat">-23.501359</SimpleData>
+            <SimpleData name="lon">-46.847323</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.847323,-23.501359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.99">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">SP4</SimpleData>
+            <SimpleData name="endereco">DIRECCIÓN 1: Avenida Ceci, 1900, Barueri, 06460 120</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">06460-120</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.equinix.com/locations/americas-colocation/brazil-colocation/sao-paulo-data-centers/sp4/</SimpleData>
+            <SimpleData name="peeringdb_id">15905</SimpleData>
+            <SimpleData name="lat">-23.493133</SimpleData>
+            <SimpleData name="lon">-46.810674</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.810674,-23.493133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.100">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">FIBRAREDE GESTAO E SERVICOS DE INFRAESTRUTURA</SimpleData>
+            <SimpleData name="endereco">Rua do Paraíso, 595</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">04103001</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.fibrarede.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">16028</SimpleData>
+            <SimpleData name="lat">-23.574363</SimpleData>
+            <SimpleData name="lon">-46.637398</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.637398,-23.574363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.101">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX-Ultranet</SimpleData>
+            <SimpleData name="endereco">Rua Simão Dias da Fonseca, 61</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">01539-020</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://ultra.net.br</SimpleData>
+            <SimpleData name="peeringdb_id">16079</SimpleData>
+            <SimpleData name="lat">-23.5725585</SimpleData>
+            <SimpleData name="lon">-46.6220675</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Rua Simão Dias da Fonseca, 61, São Paulo, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.6220675,-23.5725585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.102">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX-3AX</SimpleData>
+            <SimpleData name="endereco">Av. Maria de Jesus Condeixa, 600</SimpleData>
+            <SimpleData name="cidade">Ribeirão Preto</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">14091-240</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.3axtelecom.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">16589</SimpleData>
+            <SimpleData name="lat">-21.1896434</SimpleData>
+            <SimpleData name="lon">-47.7929062</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Av. Maria de Jesus Condeixa, 600, Ribeirão Preto, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.7929062,-21.1896434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.103">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX-Samm-RAO</SimpleData>
+            <SimpleData name="endereco">Rua General Augusto Soares, 100</SimpleData>
+            <SimpleData name="cidade">Ribeirão Preto</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">14095-240</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">http://www.megatelecom.com.br</SimpleData>
+            <SimpleData name="peeringdb_id">16590</SimpleData>
+            <SimpleData name="lat">-21.1999058</SimpleData>
+            <SimpleData name="lon">-47.7610389</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Rua General Augusto Soares, 100, Ribeirão Preto, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.7610389,-21.1999058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.104">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">PIX-Coderp</SimpleData>
+            <SimpleData name="endereco">Rua Saldanha Marinho, 834</SimpleData>
+            <SimpleData name="cidade">Ribeirão Preto</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="cep">14010-060</SimpleData>
+            <SimpleData name="pais">BR</SimpleData>
+            <SimpleData name="website">https://www.coderp.sp.gov.br/portal/coderp/</SimpleData>
+            <SimpleData name="peeringdb_id">16592</SimpleData>
+            <SimpleData name="lat">-21.172679</SimpleData>
+            <SimpleData name="lon">-47.8104173</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="geocod_query">Rua Saldanha Marinho, 834, Ribeirão Preto, SP, Brasil</SimpleData>
+            <SimpleData name="geocod_fonte">Nominatim</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.8104173,-21.172679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.105">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Scala SP1</SimpleData>
+            <SimpleData name="empresa">Scala Data Centers</SimpleData>
+            <SimpleData name="endereco">Alameda Araguaia, 2892</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="lat">-23.4831</SimpleData>
+            <SimpleData name="lon">-46.8649</SimpleData>
+            <SimpleData name="fonte">Site corporativo + PeeringDB</SimpleData>
+            <SimpleData name="capacidade_mw">54</SimpleData>
+            <SimpleData name="tipo_resfriamento">agua+ar</SimpleData>
+            <SimpleData name="ano_inauguracao">2018</SimpleData>
+            <SimpleData name="notas">Tambore Business Park. Expansao continua</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.8649,-23.4831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.106">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Scala SP2</SimpleData>
+            <SimpleData name="empresa">Scala Data Centers</SimpleData>
+            <SimpleData name="endereco">Alameda Araguaia</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="lat">-23.4828</SimpleData>
+            <SimpleData name="lon">-46.8651</SimpleData>
+            <SimpleData name="fonte">Site corporativo</SimpleData>
+            <SimpleData name="tipo_resfriamento">agua+ar</SimpleData>
+            <SimpleData name="ano_inauguracao">2021</SimpleData>
+            <SimpleData name="notas">Campus integrado ao SP1</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.8651,-23.4828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.107">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty SP1 (Barueri)</SimpleData>
+            <SimpleData name="empresa">Ascenty</SimpleData>
+            <SimpleData name="endereco">Rod. Castello Branco km 32</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="lat">-23.49</SimpleData>
+            <SimpleData name="lon">-46.84</SimpleData>
+            <SimpleData name="fonte">PeeringDB + relatorios setor</SimpleData>
+            <SimpleData name="capacidade_mw">36</SimpleData>
+            <SimpleData name="tipo_resfriamento">agua+ar</SimpleData>
+            <SimpleData name="ano_inauguracao">2013</SimpleData>
+            <SimpleData name="notas">Primeiro DC Ascenty no Brasil</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.84,-23.49,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.108">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Ascenty SP2 (Campinas)</SimpleData>
+            <SimpleData name="empresa">Ascenty</SimpleData>
+            <SimpleData name="endereco">Rod. Dom Pedro I</SimpleData>
+            <SimpleData name="cidade">Campinas</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="lat">-22.92</SimpleData>
+            <SimpleData name="lon">-47.1</SimpleData>
+            <SimpleData name="fonte">Site corporativo</SimpleData>
+            <SimpleData name="tipo_resfriamento">agua+ar</SimpleData>
+            <SimpleData name="ano_inauguracao">2020</SimpleData>
+            <SimpleData name="notas">Campus em Campinas. Coordenadas aproximadas - validar</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.1,-22.92,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.109">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Equinix SP2</SimpleData>
+            <SimpleData name="empresa">Equinix</SimpleData>
+            <SimpleData name="endereco">Av. das Nações Unidas, 12901</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="lat">-23.623</SimpleData>
+            <SimpleData name="lon">-46.6986</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="capacidade_mw">10</SimpleData>
+            <SimpleData name="tipo_resfriamento">ar</SimpleData>
+            <SimpleData name="ano_inauguracao">2011</SimpleData>
+            <SimpleData name="notas">Brooklin. Confirmar se usa captacao hidrica</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.6986,-23.623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.110">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Equinix SP3</SimpleData>
+            <SimpleData name="empresa">Equinix</SimpleData>
+            <SimpleData name="endereco">Av. das Nações Unidas</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="lat">-23.624</SimpleData>
+            <SimpleData name="lon">-46.699</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="tipo_resfriamento">ar</SimpleData>
+            <SimpleData name="ano_inauguracao">2016</SimpleData>
+            <SimpleData name="notas">Campus integrado SP2/SP3</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.699,-23.624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.111">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">ODATA SP01</SimpleData>
+            <SimpleData name="empresa">ODATA</SimpleData>
+            <SimpleData name="endereco">Rod. Anhanguera</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="lat">-23.5</SimpleData>
+            <SimpleData name="lon">-46.86</SimpleData>
+            <SimpleData name="fonte">Site corporativo + ABDC</SimpleData>
+            <SimpleData name="tipo_resfriamento">agua+ar</SimpleData>
+            <SimpleData name="ano_inauguracao">2019</SimpleData>
+            <SimpleData name="notas">Localizacao aproximada - validar via Google Earth</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.86,-23.5,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.112">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">ODATA Campinas</SimpleData>
+            <SimpleData name="empresa">ODATA</SimpleData>
+            <SimpleData name="endereco">Rod. Dom Pedro I</SimpleData>
+            <SimpleData name="cidade">Campinas</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="lat">-22.91</SimpleData>
+            <SimpleData name="lon">-47.08</SimpleData>
+            <SimpleData name="fonte">Site corporativo</SimpleData>
+            <SimpleData name="tipo_resfriamento">agua+ar</SimpleData>
+            <SimpleData name="ano_inauguracao">2022</SimpleData>
+            <SimpleData name="notas">Em construcao/expansao - verificar status</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -47.08,-22.91,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.113">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">Vivo (Telefonica)</SimpleData>
+            <SimpleData name="empresa">Vivo/Telefonica</SimpleData>
+            <SimpleData name="endereco">Al. Xingu, 350 - Alphaville</SimpleData>
+            <SimpleData name="cidade">Barueri</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="lat">-23.4944</SimpleData>
+            <SimpleData name="lon">-46.8527</SimpleData>
+            <SimpleData name="fonte">Relatorio anual Vivo</SimpleData>
+            <SimpleData name="tipo_resfriamento">ar</SimpleData>
+            <SimpleData name="ano_inauguracao">2010</SimpleData>
+            <SimpleData name="notas">DC corporativo Alphaville</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.8527,-23.4944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="data_centers_validacao.114">
+        <ExtendedData>
+          <SchemaData schemaUrl="#data_centers_validacao.schema">
+            <SimpleData name="nome">UOL Diveo / Host.net</SimpleData>
+            <SimpleData name="empresa">UOL</SimpleData>
+            <SimpleData name="endereco">Av. Brigadeiro Faria Lima</SimpleData>
+            <SimpleData name="cidade">São Paulo</SimpleData>
+            <SimpleData name="estado">SP</SimpleData>
+            <SimpleData name="lat">-23.5718</SimpleData>
+            <SimpleData name="lon">-46.6895</SimpleData>
+            <SimpleData name="fonte">PeeringDB</SimpleData>
+            <SimpleData name="tipo_resfriamento">misto</SimpleData>
+            <SimpleData name="ano_inauguracao">2008</SimpleData>
+            <SimpleData name="notas">Verificar relacao hidrica</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -46.6895,-23.5718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

@@ -1,0 +1,1 @@
+https://datageo.ambiente.sp.gov.br/geoserver/datageo/LimiteUGRHI/wfs?version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=LimiteUGRHI

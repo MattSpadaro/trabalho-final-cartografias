@@ -1,0 +1,11 @@
+nome,empresa,endereco,cidade,estado,lat,lon,capacidade_mw,tipo_resfriamento,ano_inauguracao,fonte,notas
+"Scala SP1","Scala Data Centers","Alameda Araguaia, 2892","Barueri","SP",-23.4831,-46.8649,54,agua+ar,2018,Site corporativo + PeeringDB,"Tambore Business Park. Expansao continua"
+"Scala SP2","Scala Data Centers","Alameda Araguaia","Barueri","SP",-23.4828,-46.8651,,agua+ar,2021,Site corporativo,"Campus integrado ao SP1"
+"Ascenty SP1 (Barueri)","Ascenty","Rod. Castello Branco km 32","Barueri","SP",-23.4900,-46.8400,36,agua+ar,2013,PeeringDB + relatorios setor,"Primeiro DC Ascenty no Brasil"
+"Ascenty SP2 (Campinas)","Ascenty","Rod. Dom Pedro I","Campinas","SP",-22.9200,-47.1000,,agua+ar,2020,Site corporativo,"Campus em Campinas. Coordenadas aproximadas - validar"
+"Equinix SP2","Equinix","Av. das Nações Unidas, 12901","São Paulo","SP",-23.6230,-46.6986,10,ar,2011,PeeringDB,"Brooklin. Confirmar se usa captacao hidrica"
+"Equinix SP3","Equinix","Av. das Nações Unidas","São Paulo","SP",-23.6240,-46.6990,,ar,2016,PeeringDB,"Campus integrado SP2/SP3"
+"ODATA SP01","ODATA","Rod. Anhanguera","Barueri","SP",-23.5000,-46.8600,,agua+ar,2019,Site corporativo + ABDC,"Localizacao aproximada - validar via Google Earth"
+"ODATA Campinas","ODATA","Rod. Dom Pedro I","Campinas","SP",-22.9100,-47.0800,,agua+ar,2022,Site corporativo,"Em construcao/expansao - verificar status"
+"Vivo (Telefonica)","Vivo/Telefonica","Al. Xingu, 350 - Alphaville","Barueri","SP",-23.4944,-46.8527,,ar,2010,Relatorio anual Vivo,"DC corporativo Alphaville"
+"UOL Diveo / Host.net","UOL","Av. Brigadeiro Faria Lima","São Paulo","SP",-23.5718,-46.6895,,misto,2008,PeeringDB,"Verificar relacao hidrica"
