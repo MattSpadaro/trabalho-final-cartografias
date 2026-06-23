@@ -2,7 +2,7 @@
 
 **Expansão de Data Centers, Pressão Hídrica e Vulnerabilidade Social em Barueri e Campinas (SP)**
 
-> Matheus Spadaro (RA 822389) | Felipe Camargo (RA 823676)
+> Matheus Spadaro (RA 822389) | Felipe Camargo (RA 823676) | Gustavo Gomes (RA 823176)
 
 ---
 
